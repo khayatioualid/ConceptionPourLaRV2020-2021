@@ -28,7 +28,7 @@ namespace Builder
             string ch=ConstruireChassis(TypeChassis);
             string mo=ConstruireMoteur(TypeMoteur);
             string ro=ConstruireRoue(TypeRoue);
-            return new Voiture() { TypeChassis = ch, TypeMoteur = mo, TypeRoue = ro; }
+            return new Voiture() { TypeChassis = ch, TypeMoteur = mo, TypeRoue = ro };
             
         }
     }
